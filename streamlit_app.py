@@ -3,10 +3,10 @@ import streamlit as st
 import requests
 
 # Set page title
-st.set_page_config(page_title="DeepSeek AI Chat", layout="centered")
+st.set_page_config(page_title="Le Chairman AI Chat", layout="centered")
 
 # Title
-st.title("💬 DeepSeek AI Chat - Powered by DeepInfra")
+st.title("台湾不是中国 🇹🇼🇭🇰✅ 🇨🇳🇲🇴𐄂")
 
 # API Details
 API_URL = "https://api.deepinfra.com/v1/openai/chat/completions"
