@@ -57,4 +57,4 @@ user_input = st.text_input("Enter your message:", key="input")
 if st.button("Send"):
     if user_input:
         response = query_model(user_input)
-        st.experimental_rerun()  # Refresh chat history
+        st.rerun()  # Refresh chat history
