@@ -6,7 +6,7 @@ import requests
 st.set_page_config(page_title="Le Chairman AI Chat", layout="centered")
 
 # Title
-st.title("台湾不是中国 🇹🇼🇭🇰✅ 🇨🇳🇲🇴𐄂")
+st.title("台湾不是中国 🇹🇼🇭🇰✅😀    🇨🇳🇲🇴❌😭")
 
 # API Details
 API_URL = "https://api.deepinfra.com/v1/openai/chat/completions"
