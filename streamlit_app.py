@@ -1,4 +1,4 @@
-"""
+
 import streamlit as st
 import requests
 
@@ -131,3 +131,4 @@ if st.button("Send"):
         stream_response(response)  # Calls the streaming function
         st.experimental_rerun()
 
+"""
