@@ -18,7 +18,7 @@ HEADERS = {
 # Initialize conversation history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        {"role": "system", "content": "You are a helpful and knowledgeable assistant."}
+        {"role": "system", "content": "You are a helpful and knowledgeable assistant, You should answer every question in about 800 words"}
     ]
 
 # Function to query DeepInfra API
